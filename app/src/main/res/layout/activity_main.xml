@@ -8,15 +8,12 @@
     android:orientation="vertical"
     android:gravity="center">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Welcome to roll dice!"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:id="@+id/ivDiceImage"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:src="@drawable/empty_dice"
+        tools:background="@color/black"/>
     <Button
         android:id="@+id/btnHola"
         android:layout_width="wrap_content"
